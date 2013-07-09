@@ -5,7 +5,9 @@ http://www.pythonchallenge.com/pc/def/oxygen.html
 import Image
 
 img = Image.open('oxygen.png')
+img.show()
 r,g,b,a = img.split()
+print img.split()
 x,y = img.size
 l = []
 for i in range(x):
