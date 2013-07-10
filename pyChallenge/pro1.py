@@ -11,4 +11,4 @@ to = string.ascii_lowercase[2:]+string.lowercase[:2]
 #fr = 'abcdefghijklmnopqrstuvwxyz'
 #to = 'cdefghijklmnopqrstuvwxyzab'
 trans = string.maketrans(fr, to)
-print string.translate('map',trans)
+print string.translate('map', trans)

@@ -2,7 +2,7 @@
 """
 http://www.pythonchallenge.com/pc/def/ocr.html
 """
-import string
+#import string
 print ''.join([i for i in ''.join([i.rstrip() for i in file('pro2.txt')]) if i.isalpha()])
 
 
