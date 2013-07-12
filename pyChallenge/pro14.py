@@ -12,8 +12,8 @@ for j in range(h):
 
 l2 = [(i,i-1,i-1,i-2) for i in range(100, 1, -2)]
 new = Image.new(im.mode, (100, 100))
-top = 1
-left = 1
+top = 0
+left = 0
 
 for walk in l2:
     for i in walk:
